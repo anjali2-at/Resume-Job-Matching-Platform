@@ -1,0 +1,15 @@
+intent,example
+greeting,Hello
+greeting,Hi
+greeting,Hey
+upload_resume,I want to upload my resume
+upload_resume,How can I upload my resume?
+job_match,Find jobs matching my resume
+job_match,Show me suitable jobs
+job_match,Which jobs are suitable for me?
+skills,What skills do I have?
+skills,Show my resume skills
+skills,Which skills should I improve?
+exit,Bye
+exit,Thank you
+exit,Goodbye
