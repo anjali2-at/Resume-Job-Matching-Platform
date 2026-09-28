@@ -1,0 +1,9 @@
+id,resume,job,expected_match
+1,resume1.txt,job1.txt,high
+2,resume2.txt,job1.txt,medium
+3,resume3.txt,job1.txt,low
+4,resume4.txt,job2.txt,high
+5,resume5.txt,job2.txt,low
+6,resume6.txt,job3.txt,medium
+7,resume7.txt,job3.txt,low
+8,resume8.txt,job4.txt,high

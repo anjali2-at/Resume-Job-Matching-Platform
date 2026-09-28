@@ -1,0 +1,6 @@
+id,expected_match,predicted_match,result
+1,high,high,correct
+2,medium,medium,correct
+3,low,low,correct
+4,high,medium,incorrect
+5,low,low,correct
