@@ -1,41 +1,44 @@
-# Week 5 - Embeddings and Cosine Similarity
+# Week 5 - Conversation State and Job Matching
 
-## Project
+## Objective
 
-Resume Job Matching Platform
+The objective of Week 5 is to connect resume information with job
+requirements and generate a basic job matching result.
 
-## Learn
+## Work Completed
 
-This week I learned:
+- Created conversation state management.
+- Stored resume and job description.
+- Extracted skills from text.
+- Compared resume skills with job requirements.
+- Identified matched skills.
+- Identified missing skills.
+- Calculated a basic matching score.
 
-- Text Embeddings
-- Cosine Similarity
-- Text Vectorization
-- Resume and Job Description Matching
+## Workflow
 
-## Build
+Resume
+↓
+Skill Extraction
+↓
+Job Description
+↓
+Job Skill Extraction
+↓
+Skill Comparison
+↓
+Matched and Missing Skills
+↓
+Match Score
 
-Built a Resume and Job Description Matching Algorithm.
+## Files
 
----
+- conversation_state.py
+- resume_parser.py
+- job_matcher.py
+- week5_demo.py
 
-## 1. Embeddings
+## Result
 
-Embeddings convert text into numerical representations.
-
-Machine learning algorithms cannot directly understand text.
-
-Therefore, text is converted into numerical vectors.
-
-In this project, TF-IDF Vectorizer is used to convert the resume and job description into numerical vectors.
-
-## 2. TF-IDF Vectorization
-
-TF-IDF converts text data into numerical feature vectors.
-
-```python
-vectorizer = TfidfVectorizer()
-vectors = vectorizer.fit_transform([
-    resume,
-    job_description
-])
+The system can take resume and job information, compare their
+skills and generate a basic matching score.
